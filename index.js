@@ -1,6 +1,6 @@
-import inquirer from "inquirer";
-import fs from "fs";
-import convert from "color-convert";
+const inquirer = require("inquirer");
+const fs =  require("fs");
+const convert = require("color-convert");
 
 // This function validates if the logoText input is between 1 and 3 characters
 const logoTextValidation = (input) => {
