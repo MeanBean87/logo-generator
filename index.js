@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const questions = require("./lib/questions");
 const { makeLogo } = require("./lib/shapes.js");
-// jest.mock("fs");
+
 
 const writeLogo = (logo) => {
   fs.writeFile("logo.svg", logo, (err) => {
