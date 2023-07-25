@@ -1,4 +1,4 @@
-# Logoenerator
+# Logo Generator
 
 ## Description
 
