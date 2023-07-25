@@ -1,8 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const questions = require("./lib/questions");
-const { makeLogo } = require("./lib/shapes.js");
-
+const { makeLogo } = require("./lib/makeLogo.js");
 
 const writeLogo = (logo) => {
   fs.writeFile("logo.svg", logo, (err) => {
@@ -21,3 +20,4 @@ const init = async () => {
 };
 
 init();
+module.exports = { writeLogo };
