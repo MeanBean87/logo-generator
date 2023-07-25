@@ -8,7 +8,7 @@ const writeLogo = (logo) => {
     if (err) {
       console.log(err);
     }
-    console.log("Success!");
+    console.log("Generated logo.svg");
   });
 };
 
@@ -20,4 +20,3 @@ const init = async () => {
 };
 
 init();
-module.exports = { writeLogo };
