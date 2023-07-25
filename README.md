@@ -25,7 +25,7 @@ This was a project during the Full Stack Web Development Bootcamp at UC Berkeley
 1. Clone the repository using "git clone git@github.com:MeanBean87/logo-generator.git"
 2. Navigate to the root directory of the project using CLI.
 3. Install node modules using "npm install"
-4. Video walkthrough of installation can be found [here](https://drive.google.com/file/d/110NqHskqjoa6WaO4SMr7QOFR8tiJ-se3/view). or at URL: [https://drive.google.com/file/d/1uc42Uf1VRRS1AzRkezTrEXJmjrmckzsu/view](https://drive.google.com/file/d/110NqHskqjoa6WaO4SMr7QOFR8tiJ-se3/view).
+4. Video walkthrough of installation can be found [here](https://drive.google.com/file/d/1Jraj_o7qyRmK74AlkelcaY5bkVGvcUyA/view?usp=sharing). or at URL: [https://drive.google.com/file/d/1Jraj_o7qyRmK74AlkelcaY5bkVGvcUyA/view?usp=sharing](https://drive.google.com/file/d/1Jraj_o7qyRmK74AlkelcaY5bkVGvcUyA/view?usp=sharing).
 
 ## Usage
 
