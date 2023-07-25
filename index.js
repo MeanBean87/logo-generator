@@ -8,7 +8,7 @@ const writeLogo = (logo) => {
     if (err) {
       console.log(err);
     }
-    console.log("Generated logo.svg");
+    console.log("********* Generated logo.svg *********");
   });
 };
 
