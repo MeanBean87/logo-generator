@@ -1,16 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const questions = require("./lib/questions");
-const { makeLogo } = require("./lib/makeLogo.js");
-
-const writeLogo = (logo) => {
-  fs.writeFile("logo.svg", logo, (err) => {
-    if (err) {
-      console.log(err);
-    }
-    console.log("********* Generated logo.svg *********");
-  });
-};
+const makeLogo = require("./lib/makeLogo.js");
+const writeLogo = require("./lib/writeLogo.js");
 
 const init = async () => {
   const response = await inquirer.prompt(questions);
